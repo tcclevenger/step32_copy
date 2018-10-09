@@ -1,0 +1,78 @@
+Number of active cells: 768 (on 4 levels)
+Number of degrees of freedom: 12,096 (6,528+2,304+3,264)
+
+Timestep 0:  t=0 years
+
+   Rebuilding Stokes preconditioner...
+   Solving Stokes system... 54 iterations.
+   Maximal velocity: 38.7198 cm/year
+   Time step: 102673 years
+   19 CG iterations for temperature
+   Temperature range: 973 4275.58
+
+Number of active cells: 1,164 (on 5 levels)
+Number of degrees of freedom: 19,368 (10,584+3,492+5,292)
+
+Timestep 0:  t=0 years
+
+   Rebuilding Stokes preconditioner...
+   Solving Stokes system... 59 iterations.
+   Maximal velocity: 3.09783e+09 cm/year
+   Time step: 0.000588352 years
+   31 CG iterations for temperature
+   Temperature range: -4.53865e+07 1.26254e+09
+
+Number of active cells: 1,245 (on 6 levels)
+Number of degrees of freedom: 20,889 (11,436+3,735+5,718)
+
+Timestep 0:  t=0 years
+
+   Rebuilding Stokes preconditioner...
+   Solving Stokes system... 59 iterations.
+   Maximal velocity: 5.28997e+18 cm/year
+   Time step: 1.72945e-13 years
+   31 CG iterations for temperature
+   Temperature range: -4.05784e+17 5.83799e+18
+
+Timestep 1:  t=1.72945e-13 years
+
+   Solving Stokes system... 59 iterations.
+   Maximal velocity: 5.03076e+25 cm/year
+   Time step: 1.81856e-20 years
+   28 CG iterations for temperature
+   Temperature range: -3.16644e+17 5.4077e+18
+
+Number of active cells: 702 (on 6 levels)
+Number of degrees of freedom: 12,288 (6,788+2,106+3,394)
+
+Timestep 2:  t=1.72945e-13 years
+
+   Rebuilding Stokes preconditioner...
+   Solving Stokes system... 59 iterations.
+   Maximal velocity: 1.39168e+33 cm/year
+   Time step: 6.57389e-28 years
+   30 CG iterations for temperature
+   Temperature range: -3.11993e+22 2.14131e+22
+
+Number of active cells: 2,412 (on 6 levels)
+Number of degrees of freedom: 38,904 (21,112+7,236+10,556)
+
+
+
++----------------------------------------------+------------+------------+
+| Total wallclock time elapsed since start     |      91.3s |            |
+|                                              |            |            |
+| Section                          | no. calls |  wall time | % of total |
++----------------------------------+-----------+------------+------------+
+| Assemble Stokes system           |         5 |      3.79s |       4.1% |
+| Assemble temperature matrices    |         4 |      1.82s |         2% |
+| Assemble temperature rhs         |         5 |      5.54s |       6.1% |
+| Build Stokes preconditioner      |         4 |      4.51s |       4.9% |
+| Solve Stokes system              |         5 |      58.7s |        64% |
+| Solve temperature system         |         5 |     0.294s |      0.32% |
+| Postprocessing                   |         3 |      1.24s |       1.4% |
+| Refine mesh structure, part 1    |         4 |      4.69s |       5.1% |
+| Refine mesh structure, part 2    |         4 |     0.849s |      0.93% |
+| Setup dof systems                |         5 |      8.57s |       9.4% |
++----------------------------------+-----------+------------+------------+
+
