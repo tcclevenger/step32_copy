@@ -1,0 +1,11 @@
+*/CMakeFiles
+*CMakeCache.txt
+*.vtu
+*.pvtu
+*.user
+*Makefile
+*.cmake
+*.visit
+/new_step32/step-32
+*.cbp
+/original_step32/step-32
